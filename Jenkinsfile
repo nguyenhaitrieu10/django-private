@@ -5,6 +5,9 @@ pipeline {
             steps {
                 sh 'python --version'
             }
+            timeout(time: 1, unit: 'SECONDS') {
+                sh './sleep.sh'
+            }
         }
         stage('echo linh tinh') {
             steps {
