@@ -1,0 +1,9 @@
+projectName: "sample-api"
+appType: "apps"
+moduleDir: "mysite"
+libDir: "sample-lib"
+dockerImage: "python:3.6.10-slim-buster"
+dockerPrestartScript: []
+dockerBuildScript: []
+testCommand: "echo 0"
+postPipelineJobs: []
